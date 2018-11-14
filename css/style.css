@@ -239,6 +239,9 @@ and (max-width: 768px) {
 
 #testimonials {
   padding: 0;
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  border-top: 20px solid rgba(238, 200, 86, .5);
 }
 
 #testimonials h2 {
