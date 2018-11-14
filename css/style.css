@@ -56,13 +56,14 @@ header .navbar-brand {
   background-repeat: no-repeat;
   background-position: 15px 0;
   height: auto;
+  padding-left: 0px;
 }
 
 header .navbar-brand h1 {
   color: white;
   margin: 0;
-  font-size: 1.8em;
-  font-weight: 400;
+  font-size: 1.6em;
+  font-weight: 300;
   padding-left: 105px;
 }
 
