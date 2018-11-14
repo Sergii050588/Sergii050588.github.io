@@ -235,17 +235,17 @@ and (max-width: 768px) {
   width: 100%;
 }
 
-/**  Page -- diploma **/
+/**  Page -- Testimonials **/
 
-#diploma {
+#testimonials {
   padding: 0;
 }
 
-#diploma h2 {
+#testimonials h2 {
   display: none;
 }
 
-#diploma blockquote {
+#testimonials blockquote {
   margin: 0;
   padding: 0;
   border-left: none;
@@ -253,7 +253,7 @@ and (max-width: 768px) {
   position: relative;
 }
 
-#diploma blockquote .quote {
+#testimonials blockquote .quote {
   background-color: rgba(255,255,255,.6);
   padding: 20px 5%;
   position: absolute;
@@ -263,38 +263,38 @@ and (max-width: 768px) {
   border-radius: 0 50px 0 0;
 }
 
-#diploma blockquote .quote:hover {
+#testimonials blockquote .quote:hover {
   background-color: rgba(239,240,196,.9);
 }
 
-#diploma #janeh {
+#testimonials #janeh {
   background: url(../images/testimonial-janeh.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#diploma #johnb {
+#testimonials #johnb {
   background: url(../images/testimonial-johnb.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#diploma #mcphersons {
+#testimonials #mcphersons {
   background: url(../images/testimonial-mcphersons.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#diploma #lorraines {
+#testimonials #lorraines {
   background: url(../images/testimonial-lorraines.jpg) no-repeat center center;
   background-size: cover;
 }
 
-#diploma .quote {
+#testimonials .quote {
   font-size: 1.2em;
   line-height: 110%;
   font-weight: 400;
 }
 
 
-#diploma .quote .more, #diploma .customer {
+#testimonials .quote .more, #testimonials .customer {
   opacity: 0;
   font-size: 0;
   line-height: 0;
@@ -302,7 +302,7 @@ and (max-width: 768px) {
 }
 
 
-#diploma .quote:hover .more {
+#testimonials .quote:hover .more {
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
   display: block;
@@ -311,17 +311,17 @@ and (max-width: 768px) {
   line-height: 120%;
 }
 
-#diploma .quote:hover .customer {
+#testimonials .quote:hover .customer {
   display: block;
   font-size: .7em;
   text-align: right;
 }
 
-#diploma .quote .intro::after {
+#testimonials .quote .intro::after {
   content: '...';
 }
 
-#diploma .quote:hover .intro::after {
+#testimonials .quote:hover .intro::after {
   content: '';
 }
 
